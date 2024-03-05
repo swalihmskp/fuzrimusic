@@ -5,7 +5,7 @@ const JwtStrategy = require('passport-jwt').Strategy,
 const passport = require("passport");
 const authRoutes = require("./routes/auth");
 const songRoutes = require("./routes/song");
-const User = require("./ models/User")
+const User = require("./models/User")
 const app = express();
 const  port = 5001;
 
